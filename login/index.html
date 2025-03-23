@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <h2>注册</h2>
+    <!-- header.php -->
+
+    <a href="index.php">注册</a> 
+    <a href="login.php">登陆</a> 
+    <a href="upload.php">上传图片</a> 
+    <a href="gallery.php">图片库</a>
+
+
+    <form action="register.php" method="post">
+        <label for="username">用户名：</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">密码：</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <input type="submit" value="注册">
+    </form>
+</body>
+</html>
